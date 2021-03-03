@@ -212,9 +212,8 @@
 				var resizeEvt; 
 				$(window).resize(function() {
 					clearTimeout(resizeEvt);
-					resizeEvt = setTimeout(function() {
-							console.log('window was resized');
-							initialize($strip,false);
+					resizeEvt = setTimeout(function() {							
+							// initialize($strip,false);
 					}, 500);
 				});
 
